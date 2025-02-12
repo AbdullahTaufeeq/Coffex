@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Sacramento&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* --------------------------HEADER--------------------------------- */
+
+
+.nav-link{
+    font-weight: 400 !important;
+    color: #b08968 !important;
+}
+
+.nav-link:hover{
+    color: #c49a6c !important;
+}
+
+.navbar-brand{
+    font-size: xx-large !important;
+    font-weight: bolder !important;
+    font-family: "Satisfy", serif;
+    color: #ccc !important;
+}
+
+
+/* -----------------------------BODY---------------------------- */
+body {
+    color: #ccc !important; 
+    background-color: #1a1a1a !important;
+    font-family: "Comic Neue", serif;
+}
+.about-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+.about-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #c49a6c;
+    object-fit: cover;
+}
+.about-section h2 {
+    font-weight: bold;
+    color: #c49a6c; 
+    margin-top: 15px;
+    font-family: "Satisfy", serif;
+
+}
+.about-section p {
+    max-width: 700px;
+    margin: 15px auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.footer-text {
+    font-style: italic;
+    font-weight: bold;
+    color: #b08968;
+    margin-top: 30px;
+    font-family: "Satisfy", serif;
+}
+
+
+/* -----------------------------------FOOTER--------------------------------- */
+.footer {
+    background: #2d2a27;
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+.footer h2, .footer h5 {
+    font-weight: bold;
+    color: #d4a373; 
+    font-family: "Satisfy", serif;
+
+}
+
+.footer p, .footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-links li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-links a:hover {
+    color: #d4a373;
+}
+
+.social-icons a {
+    color: #d4a373;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+}
+
