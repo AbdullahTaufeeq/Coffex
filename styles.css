@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Sacramento&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0px;
+}  
+
+body{
+    background-image: url(images/hero-img1.png);
+    background-repeat: no-repeat;
+    /* font-family: "Roboto", serif; */
+    font-family: "Comic Neue", serif;
+    background-color: #1a1a1a;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: #461312;
+}
+
+.navbar-brand{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: "Satisfy", serif;
+    color: #3e2723;
+}
+
+.hero-txt{
+    display: inline-flex;
+}
+
+.hero-txt-h3{
+    font-size: 100px;
+    color: #3e2723;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-top: 90px;
+    font-family: "Satisfy", serif;
+    /* font-family: "Sacramento", serif; */
+}
+
+.hero-txt-h3-m{
+    display: none;
+    font-size: 90px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: "Satisfy", serif;
+}
+
+
+/* ------------------------------------CARDS------------------------------- */
+
+.best-sellers{
+    display: flex;
+}
+
+.bs-h1{
+    margin-top: 370px ;
+    margin-bottom: 40px ;
+    margin-left: 600px;
+    scale: 2;
+    /* font-weight: bold; */
+    color: #461312;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #3e2723;
+    transition: color 0.3s ease-in-out;
+}
+
+.card:hover .card-title {
+    color: #5d4037;
+}
+
+.card-text {
+    color: #6d4c41;
+}
+
+.btn-dark {
+    background-color: #525333;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-dark:hover {
+    background-color: #F0C845;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ----------------------------------LOCATIONS-------------------------------- */
+
+.location-h1{
+    margin-top: 30px ;
+    margin-bottom: 40px ;
+    margin-left: 600px;
+    /* scale: 1.6; */
+    font-weight: bold;
+    color: #461312;
+}
+
+.card-location{
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* -----------------------------------About Us-------------------------------- */
+
+
+.about {
+    padding: 80px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    color: #d4a373; 
+    margin-bottom: 15px;
+    font-family: "Satisfy", serif;
+
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #ccc; 
+}
+
+.about-text .highlight {
+    color: #d4a373; 
+    font-weight: bold;
+}
+
+.about-image img {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(255, 217, 147, 0.2);
+}
+
+
+/* <!-- -----------------------COFFEE COLLECTION--------------------------- --> */
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #d4a373;
+    margin-bottom: 40px;
+    font-family: "Satisfy", serif;
+}
+
+.coffee-collection {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.collection-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+.coffee-card {
+    background-color: #222; 
+    font-family: 'Poppins', sans-serif;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(255, 217, 147, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.coffee-card:hover {
+    transform: translateY(-8px);
+}
+
+.coffee-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.coffee-info {
+    padding: 20px;
+}
+
+.coffee-info h3 {
+    font-size: 1.5rem;
+    color: #e6b877;
+    margin-bottom: 10px;
+    font-family: "Satisfy", serif;
+
+}
+
+.coffee-info p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 15px;
+    font-family: "Comic Neue", serif;
+
+}
+
+.price {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.buy-btn {
+    background-color: #d4a373; 
+    color: #1a1a1a;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.buy-btn:hover {
+    background-color: #e6b877;
+}
+
+/* <!-- -------------------------CAFE LOCATIONS---------------------------- --> */
+
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #d4a373; 
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+.cafe-locations {
+    padding: 80px 10%; 
+}
+
+.locations-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.location-card {
+    background-color: #222; 
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(255, 217, 147, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.location-card:hover {
+    transform: translateY(-8px);
+}
+
+.location-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.location-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.location-info h3 {
+    font-size: 1.5rem;
+    color: #e6b877; 
+    margin-bottom: 10px;
+    font-family: "Satisfy", serif;
+}
+
+.location-info p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 5px;
+    font-family: "Comic Neue", serif;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #d4a373; /* Gold */
+    color: #1a1a1a;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #e6b877;
+}
+
+
+/* -----------------------------------FOOTER--------------------------------- */
+.footer {
+    background: #2d2a27;
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+.footer h2, .footer h5 {
+    font-weight: bold;
+    color: #d4a373; 
+    font-family: "Satisfy", serif;
+
+}
+
+.footer p, .footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-links li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-links a:hover {
+    color: #d4a373;
+}
+
+.social-icons a {
+    color: #d4a373;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+}
+
+
+
+
+@media (max-width: 1000px){
+
+    body{
+        background-image: url(images/Hero-image-m-820.png);
+        background-repeat: no-repeat;
+        font-family: "Roboto", serif;
+        background-color: #1a1a1a;
+    }
+
+    .nav-link{
+        font-weight: bold;
+        color: #ccc;
+    }
+     
+    .hero-txt{
+        display: inline-flex;
+    }
+
+    .navbar-brand{
+        color: #ccc;
+        font-size: xx-large;
+    }
+
+    .navbar-toggler{
+        color: #ccc;
+    }
+
+    .navbar-toggler-icon{
+        color: #ccc;
+    }
+ 
+    .hero-txt-h3-m{
+        display: none;
+        font-size: 70px;
+        margin-top: 80px;
+        text-align: center;
+        color: #ccc;
+    }
+
+    .hero-txt-h3{
+        display: none;
+    }
+
+    .hero-txt-h3-m{
+        display: block;
+    }
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        margin-bottom: 30px;
+    }
+
+    .about-image img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .collection-container {
+        grid-template-columns: 1fr;
+    }
+
+    .locations-container {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
